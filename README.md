@@ -6,15 +6,19 @@
 2. structure:
 
 * USER
-- user signup/logout;
-- admin add/delete/modify informaton;
-- anonymous look through all the infomation;
+```
+  user signup/logout;
+  admin add/delete/modify informaton;
+  anonymous look through all the infomation;
+```
 
 * Part
-- Machine Info;
-- Books Info;
-- Help Info;
-- Service Info;
+```
+  Machine Info;
+  Books Info;
+  Help Info;
+  Service Info;
+```
 
 3. Methord used:
-- Java Servlet; jstl;
+> Java Servlet; jstl;
