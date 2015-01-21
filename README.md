@@ -19,4 +19,4 @@
 > Service Info;
 
 3. Methord used:
-> Java Servlet; jstl
+Java Servlet; jstl;
