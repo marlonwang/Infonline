@@ -3,7 +3,10 @@
 1. running environment:
 > Tomcat 7.0; JDK 1.7; SQL Server2008;
 
-2. structure:
+2. Methord used:
+> Java Servlet; jstl;
+
+3. structure:
 
 * USER
 ```
@@ -20,5 +23,3 @@
   Service Info;
 ```
 
-3. Methord used:
-> Java Servlet; jstl;
