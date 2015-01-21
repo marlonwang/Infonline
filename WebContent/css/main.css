@@ -1,0 +1,161 @@
+
+body {width:980px; 
+	margin:0 auto;
+
+}
+/*
+a {
+	text-decoration: none;
+	color: #000;
+
+	font-family: 宋体;
+  }
+a:hover {
+	text-decoration: underline;
+	color: #F08F5E;
+  }
+  */
+
+#top_space{
+	width:980px;
+	height:12px;
+	text-align: right;
+	font-size: 12px;
+	font-family:宋体;
+	line-height: 12px;
+	color:#8C8169;
+	margin-top: 3px;
+}
+
+#banner{
+	width:980px;
+	height:120px;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+}
+#navi {
+	width:980px;
+	height:40px;
+	background-color: #BE0000;
+}
+
+#navi ul li{
+	position: relative;
+	display: block;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin-right:5px ;
+	width:120px;
+	line-height: 40px;
+	font-family: 黑体;
+}
+#navi ul li:hover{
+	
+	background-color: #FF1648;/*#8B0000;*/
+}
+#navi ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#navi ul li span {color: #FFFFFF;}
+
+#container{
+	width:978px; 
+	height:600px;
+	margin-top: 5px;
+	border:1px solid #CCCCCC;
+}
+
+#book_cloumn{
+	width:300px;
+	height:600px;
+	float:left;
+}
+
+#machine_cloumn{
+	width:303px;
+	height:600px;
+	margin-left: 20px;
+	float:left;
+	background-color: #FBFBFB;
+}
+
+#help_serv{
+	width:340px;
+	height:600px;
+	float: left;
+	margin-left: 15px;
+	/*border-left: 0.5px dotted #DDDDDD;*/
+}
+
+#help_cloumn{
+	height:280px;
+	margin-bottom:10px;
+	width:340px;
+	float: top;
+}
+
+#serv_cloumn{
+	height:310px;
+	width:340px;
+	float: top;
+}
+
+#footer{
+	width:980px;
+	height:40px;
+	border-top: 1px solid #CCCCCC;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+#footer div
+{
+	text-align: center;
+	font-size: 14px;
+	font-family: consolas;
+	text-decoration: none;
+}
+
+#book_head{
+	width: 300px;
+	height:45px;
+	background-image: url(../img/item_bg.png);
+	text-indent: 1px;
+	line-height: 45px;
+	font-family: 黑体;
+	font-size: 18px;
+}
+
+#machine_head{
+	width:303px;
+	height: 45px;
+	background-image: url(../img/item_bg.png);
+	text-indent: 1px;
+	line-height: 45px;
+	font-family: 黑体;
+	font-size: 18px;
+}
+#help_service_head{
+	width:340px;
+	height:45px;
+	background-image: url(../img/item_bg.png);
+	background-repeat: repeat-x;
+	text-indent: 1px;
+	line-height: 45px;
+	font-family: 黑体;
+	font-size: 18px;
+}
+
+#fb_author_style{
+	font-size:13px; 
+	height: 22px;
+	line-height: 22px;
+	text-indent: 15px;
+}
+
+#fb_title{
+	color: #333333;
+	font-weight: bold;
+}

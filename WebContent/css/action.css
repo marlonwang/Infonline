@@ -1,0 +1,156 @@
+body{
+	width:980px;
+	margin:0 auto;
+	font-family: 黑体;
+}
+
+.enlarge
+{
+	font-size: 120%;
+}
+
+#banner{
+	width:980px;
+	height:105px;
+	background-image: url(../img/bannerfb.jpg);
+	background-repeat: no-repeat;
+	margin-top: 15px;
+}
+
+#navi{
+	width:980px;
+	height:40px;
+	background-color: #ADADAD;
+}
+
+#navi ul li{
+	position: relative;
+	display: inline;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin-right:5px ;
+	width:120px;
+	line-height: 40px;
+	font-family: 黑体;
+
+}
+#navi ul li:hover{
+	height:38px;
+	background-color: #C9C9C9;
+	border-bottom: 2px solid #BE0000;
+}
+#navi ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#navi ul li span {color: #FFFFFF; }
+
+#container{
+	width: 980px;
+	height:450px;
+	margin-top: 2px;
+}
+
+#contain_left{
+	width:200px;
+	height:448px;
+	margin-right: 20px;
+	background-color: #FCFCFC;
+	float:left;
+}
+
+#contain_left ul{
+	margin:0px; 
+	padding:20px;
+}
+#contain_left ul li{
+	list-style: none;
+	line-height: 30px;
+	text-indent: 20px;
+}
+
+#contain_line{
+	width:1px;
+	height:448px;
+	background-color: #DDDDDD;
+	float: left;
+}
+#contain_right{
+	margin-left:20px;
+	width:739px;
+	height:448px;
+	background-color: #FCFCFC;
+	float: left;
+}
+
+
+#footer{
+	width:980px;
+	height:40px;
+	border-top: 1px solid #CCCCCC;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+#footer div{
+	text-align: center;
+	font-size: 14px;
+	font-family: consolas;
+	text-decoration: none;
+}
+
+
+#text{
+	width: 39px; 
+	height:200px; 
+	float: left;
+}
+
+#preview{
+	width:700px; 
+	height:200px; 
+	float: left;
+	font-family:宋体;
+}
+
+#edit_left{
+	width:225px; 
+	float:left;
+}
+
+#edit_right{
+	width:auto; 
+	float:left; 
+	margin-left: 15px;
+}
+
+#editstyle{
+	width:739px; 
+	margin-top:20px; 
+	float: left;
+}
+
+#preview table tr{
+	width:655px;
+}
+
+#preview table tr th{
+	text-align: left; 
+}
+
+#preview_title{
+	width:120px;
+}
+
+#preview_pusher{
+	width:60px;
+}
+
+#preview_date{
+	width:150px;
+}
+
+#preview_content{
+	width:370px;
+}
