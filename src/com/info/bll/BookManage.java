@@ -16,7 +16,7 @@ public class BookManage {
 	 * 获取	b_id
 	 * @param title
 	 * @param pusher
-	 * @return
+	 * @return	bookid
 	 ************************************/
 	private int getBookbyID(String title,String pusher)
 	{
