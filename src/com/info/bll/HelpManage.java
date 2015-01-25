@@ -13,7 +13,7 @@ public class HelpManage {
 	}
 		
 	/*************************************
-	 * 返回指定 help的 id 
+	 * 返回指定 help 的 id 
 	 * @param title
 	 * @param pusher
 	 * @return
