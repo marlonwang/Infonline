@@ -58,7 +58,7 @@ public class HelpManage {
 	}
 	
 	/******************************************
-	 * 修改 b_help 表项
+	 * 修改 b_help 的表项
 	 * @param title
 	 * @param pusher
 	 * @param newTitle
