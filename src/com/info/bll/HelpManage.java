@@ -27,7 +27,7 @@ public class HelpManage {
 	}
 
 	/***************************************
-	 * 向b_help表中添加help info
+	 * 向b_help表中添加 help info
 	 * @param title
 	 * @param text
 	 * @param pusher
