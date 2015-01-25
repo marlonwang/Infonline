@@ -44,7 +44,7 @@ public class HelpManage {
 	}
 	
 	/**********************************************
-	 * 删除 b_help 表记录
+	 * 删除 b_help 表中记录
 	 * @param title
 	 * @param pusher
 	 * @return
