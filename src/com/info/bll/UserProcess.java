@@ -98,10 +98,10 @@ public class UserProcess {
 		return num;
 	}
 
+	/********测试用例***********/
 	/*public static void main(String[] args) {
 		String name="way";
 		String password="123456";
-		
 		System.out.println(userSignIn(name,password).get("u_name"));
 	}*/
 }
