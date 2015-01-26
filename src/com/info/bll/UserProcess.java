@@ -12,7 +12,7 @@ public class UserProcess {
 	//sign up 是注册,sign in 是登录
 	
 	/*********************************************************
-	 * 用户或管理员注册调用
+	 * 用户或管理员注册
 	 * @param name
 	 * @param password
 	 * @param isadmin
