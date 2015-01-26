@@ -97,6 +97,7 @@ public class UserProcess {
 		num=SqlAction.operate(sql);
 		return num;
 	}
+
 	/*public static void main(String[] args) {
 		String name="way";
 		String password="123456";
