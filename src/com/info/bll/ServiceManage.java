@@ -13,7 +13,7 @@ public class ServiceManage {
 	}
 	
 	/*************************************
-	 * 查询指定 service信息 
+	 * 查询指定 service 信息 
 	 * @param title
 	 * @param pusher
 	 * @return s_id
@@ -74,15 +74,5 @@ public class ServiceManage {
 		return num;
 	}
 	
-	/**************************************
-	 * 获取 b_service表所有记录
-	 * @return List<Map<String, Object>>
-	 **************************************/
-	public List<Map<String, Object>> getAllService()
-	{
-		List<Map<String, Object>> slist = new ArrayList<>();
-		String sql="select * from b_service";
-		slist=SqlAction.query(sql);
-		return slist;
-	}
+	
 }
