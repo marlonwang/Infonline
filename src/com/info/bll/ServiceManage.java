@@ -74,5 +74,15 @@ public class ServiceManage {
 		return num;
 	}
 	
-	
+	/**************************************
+	 * 获取 b_service表所有记录
+	 * @return List<Map<String, Object>>
+	 **************************************/
+	public List<Map<String, Object>> getAllService()
+	{
+		List<Map<String, Object>> slist = new ArrayList<>();
+		String sql="select * from b_service";
+		slist=SqlAction.query(sql);
+		return slist;
+	}
 }
