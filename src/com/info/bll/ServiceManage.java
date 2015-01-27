@@ -44,7 +44,7 @@ public class ServiceManage {
 	}
 	
 	/**********************************
-	 * 从服务信息表插入 记录
+	 * 从服务信息表插入记录
 	 * @param title
 	 * @param pusher
 	 * @return 受影响行数
@@ -86,3 +86,4 @@ public class ServiceManage {
 		return slist;
 	}
 }
+ 
