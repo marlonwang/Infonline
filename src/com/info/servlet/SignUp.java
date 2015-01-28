@@ -37,7 +37,6 @@ public class SignUp extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		
 		//设置编码，防止页面跳转 后乱码现象
 		//but still code dieturbed
