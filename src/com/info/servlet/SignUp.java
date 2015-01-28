@@ -34,7 +34,6 @@ public class SignUp extends HttpServlet {
 		// TODO Auto-generated method stub
 		doPost(request,response);
 	}
-
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
