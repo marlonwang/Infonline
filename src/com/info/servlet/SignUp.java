@@ -40,6 +40,7 @@ public class SignUp extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		//设置编码，防止页面跳转 后乱码现象
+		//but still code dieturbed
 		request.setCharacterEncoding("UTF-8");
 		response.setCharacterEncoding("UTF-8");
 		
