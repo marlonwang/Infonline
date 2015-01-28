@@ -48,7 +48,6 @@ public class SignUp extends HttpServlet {
 		
 		String name=request.getParameter("name");
 		String password=request.getParameter("pwd");
-				
 		
 		UserProcess uPro=new UserProcess();
 		if(name!="" && password!="")
