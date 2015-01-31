@@ -68,6 +68,7 @@ public class InfoPublish extends HttpServlet {
 		}	
 	}
 	
+	//图书信息
 	protected void bookPush(String title,String text,String pusher,HttpServletResponse response)
 	{	
 		BookManage bkm=new BookManage();
