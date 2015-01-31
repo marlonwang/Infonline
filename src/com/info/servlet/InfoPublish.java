@@ -98,6 +98,7 @@ public class InfoPublish extends HttpServlet {
 		}
 	}
 	
+	//求助信息
 	protected void helpPush(String title,String text,String pusher,HttpServletResponse response)
 	{
 		HelpManage hpm=new HelpManage();
