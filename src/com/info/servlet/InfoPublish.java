@@ -113,6 +113,7 @@ public class InfoPublish extends HttpServlet {
 		}
 	}
 	
+	//服务信息
 	protected void servicePush(String title,String text,String pusher,HttpServletResponse response)
 	{
 		ServiceManage svm=new ServiceManage();
