@@ -83,6 +83,7 @@ public class InfoPublish extends HttpServlet {
 		}
 	}
 	
+	//电器信息
 	protected void machinePush(String title,String text,String pusher,HttpServletResponse response)
 	{
 		MachineManage mcm=new MachineManage();
