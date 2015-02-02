@@ -168,5 +168,4 @@ public class InfoManage extends HttpServlet {
 			break;
 		}
 	}
-
 }
